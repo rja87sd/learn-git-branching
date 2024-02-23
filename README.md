@@ -48,22 +48,8 @@
 -- Switched to main branch with git switch. Made changes in VS Code.
 
 - On GitHub, add different changes to the main branch and commit them. Screenshot: Take a screenshot of the GitHub interface showing these remote commits.
--- 
-Step 7: Pull and Merge Changes (Local):
+-- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/22615ac0-808f-4fe4-a52e-0da6c3dd8417)
 
-Locally, execute git pull on the main branch.
-If a merge conflict occurs, resolve it and complete the merge.
-Screenshot: Capture the terminal showing the successful pull and merge, including conflict resolution if applicable.
-Part 3: Documentation and Submission
-Compile Documentation:
-
-Update the README.md in your learn-git-branching repository.
-Include step-by-step descriptions of your actions for both parts of the assignment. Indicate clearly whether each action was performed locally or on GitHub.
-Insert the screenshots at the appropriate steps to visually demonstrate your process.
-Reflect on Learning:
-
-Write a brief reflection on how these exercises have improved your understanding of managing branches, conflicts, and diverged changes in Git.
-Push and Submit:
-
-Push your updated README.md with the documentation and screenshots to GitHub.
-Submit the URL of your learn-git-branching repository.
+- Locally, execute git pull on the main branch.
+- If a merge conflict occurs, resolve it and complete the merge. Screenshot: Capture the terminal showing the successful pull and merge, including conflict resolution if applicable.
+-- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/9c1976d4-8655-4a3d-ac86-2bced3070776)
