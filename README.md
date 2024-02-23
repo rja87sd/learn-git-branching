@@ -25,31 +25,30 @@
 - Make some changes in a file within feature-branch but do not commit them.
 -- Switched to feature-branch using git switch command. Began working in index.html.
 
-Step 2: Simulate Main Branch Updates (Local and Remote):
+- Locally, switch to the main branch and make different changes. Commit these changes.
+-- Switched to main using git switch. Made changes and committed using git add and git commit -m
 
-Locally, switch to the main branch and make different changes. Commit these changes.
-On GitHub, navigate to the same repository and make additional changes to the main branch. Commit these changes directly on GitHub.
-Screenshot: Capture the GitHub commit as proof of making remote changes.
-Step 3: Stash and Rebase (Local):
+- On GitHub, navigate to the same repository and make additional changes to the main branch. Commit these changes directly on GitHub. Screenshot: Capture the GitHub commit as proof of making remote changes.
+-- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/d97a55ff-bc57-499f-8beb-90a4eb64430c)
 
-Switch back to feature-branch locally and stash your changes using git stash.
-Perform a rebase by executing git rebase main.
-Resolve any conflicts that arise, then continue with git rebase --continue.
-Screenshot: Take a screenshot showing the successful rebase completion and conflict resolution.
-Step 4: Apply Stashed Changes (Local):
+- Switch back to feature-branch locally and stash your changes using git stash.
 
-Apply your stashed changes with git stash pop.
-Resolve any conflicts and make a new commit.
-Screenshot: Capture the final commit in feature-branch showing the application of stashed changes.
-Part 2: Pulling with Rebase Configuration
-Step 5: Configure Pull Behavior (Local):
+- Perform a rebase by executing git rebase main.
 
-Set your local Git to merge by default during pulls with git config pull.rebase false.
-Step 6: Create Diverged Changes (Local and Remote):
+- Resolve any conflicts that arise, then continue with git rebase --continue. Screenshot: Take a screenshot showing the successful rebase completion and conflict resolution.
+-- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/d21bd8f3-0c31-41eb-aff4-d629456328c9)
 
-Locally, on the main branch, make and commit some changes.
-On GitHub, add different changes to the main branch and commit them.
-Screenshot: Take a screenshot of the GitHub interface showing these remote commits.
+- Apply your stashed changes with git stash pop.
+- Resolve any conflicts and make a new commit. Screenshot: Capture the final commit in feature-branch showing the application of stashed changes.
+-- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/841844de-c4c3-4514-ae94-6ae6557965c2)
+
+- Set your local Git to merge by default during pulls with git config pull.rebase false.
+
+- Locally, on the main branch, make and commit some changes.
+-- Switched to main branch with git switch. Made changes in VS Code.
+
+- On GitHub, add different changes to the main branch and commit them. Screenshot: Take a screenshot of the GitHub interface showing these remote commits.
+-- 
 Step 7: Pull and Merge Changes (Local):
 
 Locally, execute git pull on the main branch.
