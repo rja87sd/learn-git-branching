@@ -29,18 +29,18 @@
 -- Switched to main using git switch. Made changes and committed using git add and git commit -m
 
 - On GitHub, navigate to the same repository and make additional changes to the main branch. Commit these changes directly on GitHub. Screenshot: Capture the GitHub commit as proof of making remote changes.
--- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/d97a55ff-bc57-499f-8beb-90a4eb64430c)
+ ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/d97a55ff-bc57-499f-8beb-90a4eb64430c)
 
 - Switch back to feature-branch locally and stash your changes using git stash.
 
 - Perform a rebase by executing git rebase main.
 
 - Resolve any conflicts that arise, then continue with git rebase --continue. Screenshot: Take a screenshot showing the successful rebase completion and conflict resolution.
--- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/d21bd8f3-0c31-41eb-aff4-d629456328c9)
+ ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/d21bd8f3-0c31-41eb-aff4-d629456328c9)
 
 - Apply your stashed changes with git stash pop.
 - Resolve any conflicts and make a new commit. Screenshot: Capture the final commit in feature-branch showing the application of stashed changes.
--- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/841844de-c4c3-4514-ae94-6ae6557965c2)
+ ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/841844de-c4c3-4514-ae94-6ae6557965c2)
 
 - Set your local Git to merge by default during pulls with git config pull.rebase false.
 
@@ -48,8 +48,11 @@
 -- Switched to main branch with git switch. Made changes in VS Code.
 
 - On GitHub, add different changes to the main branch and commit them. Screenshot: Take a screenshot of the GitHub interface showing these remote commits.
--- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/22615ac0-808f-4fe4-a52e-0da6c3dd8417)
+ ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/22615ac0-808f-4fe4-a52e-0da6c3dd8417)
 
 - Locally, execute git pull on the main branch.
 - If a merge conflict occurs, resolve it and complete the merge. Screenshot: Capture the terminal showing the successful pull and merge, including conflict resolution if applicable.
--- ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/9c1976d4-8655-4a3d-ac86-2bced3070776)
+ ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/9c1976d4-8655-4a3d-ac86-2bced3070776)
+
+- Write a brief reflection on how these exercises have improved your understanding of managing branches, conflicts, and diverged changes in Git.
+-- I feel more comfortable with git pull, git rebase, and git merge now. Seeing them in action gives me a better understanding of their function than seeing it in a linear tree on the browser game from previous assignments this week. Also, I learned how to exit VIM.
