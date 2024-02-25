@@ -69,6 +69,7 @@
 ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/ef238f98-1c44-44d5-a556-929ede856c9e)
 ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/99290852-8ef2-4c58-9749-ad57ecbbb147)
 ![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/1aa62766-aa55-4c29-979c-c53f6c0300cf)
+![image](https://github.com/team-codex-first-org/learn-git-branching/assets/145504216/13db4e29-8e3f-40e9-a919-6c12de865785)
 
-
-
+- In the README.md of the transferred repository, add a section reflecting on this exercise. Discuss what you learned about GitHub Organizations and how they can be used for collaborative projects. Reflect on the process of transferring a repository. Consider aspects like project visibility, collaboration, and repository management in a professional context.
+-- Git Organizations is a useful tool for collaborative projects in that it adds more structure to the collaboration. Admins can keep track of the organization's members and control how the members can interact with the repository or repositories via permissions. It also allows project admins to control who can and cannot contribute to the project via the members list. Orverall it seems to add a level of security on top of organizational structure, and certainly merits further exploration.
