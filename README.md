@@ -56,3 +56,13 @@
 
 - Write a brief reflection on how these exercises have improved your understanding of managing branches, conflicts, and diverged changes in Git.
 -- I feel more comfortable with git pull, git rebase, and git merge now. Seeing them in action gives me a better understanding of their function than seeing it in a linear tree on the browser game from previous assignments this week. Also, I learned how to exit VIM.
+
+## Week 7 Day 5 Assignment
+- On GitHub, create a new organization. Choose a name that reflects your learning journey or a hypothetical team name. Document the steps you took to create the organization. Include screenshots of the creation process.
+![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/0abdc4f8-f4b3-4d25-81bc-52e7b3a0b3ea)
+![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/6a7ddb3f-be26-4ac1-b423-10c4f39f2afb)
+![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/08571989-a62c-40f7-a0b0-dbb441d91c22)
+![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/f5f1dc04-3b30-43ce-904b-63e7bf01f316)
+![image](https://github.com/rja87sd/learn-git-branching/assets/145504216/2aaa1e7b-c94e-480e-b822-552e30ff5d08)
+
+- Choose one of your existing repositories (e.g., learn-git-branching) that you've used in previous assignments. Transfer your selected repository into your new GitHub organization. Document the transfer process with screenshots showing the repository in its new location within the organization.
